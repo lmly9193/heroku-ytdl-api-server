@@ -1,0 +1,9 @@
+click
+flask
+gunicorn
+itsdangerous
+jinja2
+markupsafe
+werkzeug
+youtube-dl-server
+youtube-dl
