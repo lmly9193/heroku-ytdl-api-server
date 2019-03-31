@@ -1,6 +1,6 @@
 # youtube-dl-api-server
 
-基於 [youtube-dl](http://rg3.github.io/youtube-dl/) 及 [youtube-dl-api-server ](https://github.com/jaimeMF/youtube-dl-api-server) 的 RESTful API 伺服器，本儲存庫用途為直接部屬到 Heroku。
+基於 [youtube-dl](http://rg3.github.io/youtube-dl/) , [youtube-dl-api-server ](https://github.com/jaimeMF/youtube-dl-api-server), [youtube-dl-api-server-heroku](https://github.com/GeeekyBoy/youtube-dl-api-server-heroku) 的 RESTful API 伺服器，本儲存庫用途為將 youtube-dl-api-server 直接部屬到 Heroku。
 
 ## 部屬到 Heroku
 
@@ -10,7 +10,7 @@
 
 ### 手動部屬
 
-0. 確保你已安裝且設置好 [Heroku toolbelt](https://toolbelt.heroku.com)
+0. 確保你已安裝且設置好 [Heroku toolbelt](https://toolbelt.heroku.com).
 
 1. 克隆這個儲存庫
 
@@ -33,12 +33,13 @@
 
 4. 查看執行日誌或狀態
 
-   ```heroku logs
+   ```bash
    heroku logs
+   
    heroku ps
    ```
 
-5. 你的 API 伺服器版本可以在此查看`https://<your-app-name>.herokuapp.com/api/version`
+5. 你的 API 伺服器版本可以在此查看`https://<your-app-name>.herokuapp.com/api/version`.
 
 ## Updating Python packages
 
